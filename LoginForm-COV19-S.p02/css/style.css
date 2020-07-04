@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Righteous&display=swap');
+
+/*Reglas para todo*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: space-between;
+}
+
+/*Reglas del cuerpo*/
+.body{ 
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Reglas para el la class container seccion del formulario*/
+.container{
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; 
+    font-family: 'Nunito', sans-serif;
+}
+
+/*Regla para fondo de la imagen de la class container-rigt*/
+.container .rigt{
+    height: 30px;
+    width: 100px;
+    flex-basis: 100%;
+    border-radius: 20px;  
+}
+
+/*Regla para la imagen de la class container-rigt-content*/
+.container .rigt .content img{
+    height: 460px;
+    width: 700px;
+    background:#BFF2D9;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 50px;
+}
+
+/*Regla para el Titulo h1 COV19-S* de la class container-rigt*/
+.container.rigt h1{
+    margin: 100px 100px;
+}
+
+/*Regla para la class container-marco*/
+.container .marco{
+    max-width: 100%;
+    flex-basis: 50%;
+    justify-content: left;
+    margin-left: 0%;
+    margin-top: 27%; 
+    color: #fff;
+    background: transparent;
+    transform: translate(-13%, -0%);
+    align-items: left;
+}
+
+/*Regla para el titulo h3 Sign In del boron de inicio de sesion en la class container-marco*/
+.container .marco h3{
+    font-size: 31px;
+    color: #000;
+    border-radius: 10px;
+    text-align: left; 
+}
+
+/*Regla para margen de los buttom del frrmulario de Form de la class container-marco*/
+.container .marco form{
+    margin: 100px 70px;
+}
+
+/*Regla de la class container-marco-form group de la seccion del formulario de label*/
+.container .marco .form-group label{
+    margin: 20px 0px; 
+}
+
+/*Regla para el input de los buttom del form con las class container-marco-form group*/
+.container .marco .form-group input{
+    height: 40px;
+    width: 320px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #000;
+    margin-bottom: left;
+    text-align: justify;
+}
+
+/*Regla para el grupo del marco de ayuda con la contrasena y terminos y condiciones con las class container-marco*/
+.container .marco a{
+    margin-left: 30px;
+    color: #00bce4;
+    text-align:left;
+    margin-right: 20px;
+    align-items: left; 
+}
+
+/*Regla para las especificaciones de los Buttom de las class container-marco*/
+.container .marco button{
+    height: 40px;
+    width: 170px;
+    display: block;
+    padding: 7px 20px;
+    font-size: 17px;
+    color: #fff;
+    background: #00bce4;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;  
+}
+
+/*Regla para el grupo del marco de ayuda con la contrasena y terminos y condiciones con las class container box-define*/
+.container-Box .define a{
+    text-align: center;
+    color: rgb(70, 68, 68);
+    font-size: 15px;
+}
+
+/*Regla para el parrafo de la firma del programador con las class container-define*/
+.container .define p{
+    margin: 10px;
+    color: #000;  
+    font-size: 12px;
+    margin-right: 10px;
+    text-align: unset;
+}
+    
+
+/* Regla para el encabezado del formulario de inicio de seccion */
+    .container-Box header{
+        color: #000;
+        font-family: 'Righteous', cursive;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        font-size: 19px;
+        margin-top: 30px;
+        margin-left: 70px;
+    }
+    
+
+/*Regla para el encabezado del nabvar con la class container-navbar*/
+    header a{
+        margin-right: 20px;
+        text-align: left;
+        text-decoration: none;
+        font-size: 14px;
+        color: #4F5250; 
+    }
+
+
+    
+   
+    
+   
